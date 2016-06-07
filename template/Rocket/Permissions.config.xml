@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Permissions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DefaultGroupId>default</DefaultGroupId>
+  <Groups>
+    <Group>
+      <Id>default</Id>
+      <DisplayName>Guest</DisplayName>
+      <Members />
+      <Commands>
+        <Command>p</Command>
+        <Command>reward</Command>
+        <Command>balance</Command>
+        <Command>pay</Command>
+        <Command>rocket</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+    <Group>
+      <Id>moderator</Id>
+      <DisplayName>Moderator</DisplayName>
+      <Members>
+        <Member>76561197960287930</Member>
+      </Members>
+      <Commands>
+        <Command>p</Command>
+        <Command>p.reload</Command>
+        <Command>tp</Command>
+        <Command>tphere</Command>
+        <Command>i</Command>
+        <Command>test</Command>
+      </Commands>
+      <ParentGroups />
+    </Group>
+  </Groups>
+</Permissions>
